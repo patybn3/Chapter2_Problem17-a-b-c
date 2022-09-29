@@ -1,25 +1,31 @@
 public class BasicPair<T> implements PairInterface<T>
 {
-    protected T[] first;
-    protected T[] second;
+    T firstInstance;
+    T secondInstance;
+
+    public BasicPair(T setFirstInstance, T setSecondInstance)
+    {
+        firstInstance = setFirstInstance;
+        secondInstance = setSecondInstance;
+    }
+
+    @Override
+    public void setFirst(T first) {
+        this.firstInstance = first;
+    }
+
+    @Override
+    public void setSecond(T second) {
+        this.secondInstance = second;
+    }
 
     @Override
     public T getFirst() {
-        return null;
+        return firstInstance;
     }
 
     @Override
     public T getSecond() {
-        return null;
-    }
-
-    @Override
-    public T setFirst() {
-        return null;
-    }
-
-    @Override
-    public T setSecond() {
-        return null;
+        return secondInstance;
     }
 }

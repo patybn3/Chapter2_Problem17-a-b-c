@@ -1,7 +1,17 @@
 public class ArrayPair<T> implements PairInterface<T>
 {
-    protected T[] first;
-    protected T[] second;
+    protected T[] firstObj;
+    protected T[] secondObj;
+
+    @Override
+    public void setFirst(T first) {
+
+    }
+
+    @Override
+    public void setSecond(T second) {
+
+    }
 
     @Override
     public T getFirst() {
@@ -10,16 +20,6 @@ public class ArrayPair<T> implements PairInterface<T>
 
     @Override
     public T getSecond() {
-        return null;
-    }
-
-    @Override
-    public T setFirst() {
-        return null;
-    }
-
-    @Override
-    public T setSecond() {
         return null;
     }
 }
