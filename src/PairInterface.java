@@ -1,3 +1,7 @@
+/**
+ * @author Patricia N. Antlitz
+ * @version 1.0
+ */
 public interface PairInterface<T>
 {
     void setFirst(T first);
@@ -5,5 +9,4 @@ public interface PairInterface<T>
 
     T getFirst();
     T getSecond();
-
 }
