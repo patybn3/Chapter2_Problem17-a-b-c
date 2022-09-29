@@ -1,3 +1,17 @@
+/* Problem Set 2 - 17 - a, b and c Chapter 2
+-------------------------------------------------------------*
+/*
+Name: Patricia Antlitz
+Date: 09/19/2022
+Class: CIS-252 Computer Science II - NECC Fall 2022
+
+ * Please read the README file for detailed information about this program.
+
+ * This file is the main class that runs the program
+ * objects are created from classes the implement an interface class. The interface is of generic type.
+ * The first implement class, BasicPair will take two arguments as variables, and ArrayPair will take two arguments as an array.
+ * Generic type was tested as Strings, ints and doubles.
+ */
 /**
  * @author Patricia N. Antlitz
  * @version 1.0
