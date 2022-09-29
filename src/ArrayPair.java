@@ -6,7 +6,7 @@ public class ArrayPair<T> implements PairInterface<T>
     {
         arrayOfObj = (T[]) new Object[2];
         arrayOfObj[0] = setFirstObj;
-        arrayOfObj[1] = setFirstObj;
+        arrayOfObj[1] = setSecObj;
     }
 
     @Override
